@@ -1,14 +1,24 @@
 <template>
     <div>
+      <base-card>
+        <p style='font-weight: bold; color: black; text-align: center'>Request Received</p>
+      </base-card>
+      <base-card>
         <div v-for="data in allData" :key="data">
-            {{data.email}}
+          <span style='color: #3a0061; font-size: 12px'>
+            {{data.userEmail}} <br>
+            {{data.userMessage}}
+          </span>
         </div>
+      </base-card>
     </div>
 </template>
 
 <script>
+import BaseCard from '@/components/ui/BaseCard';
 export default{
-    data(){
+  components: { BaseCard },
+  data(){
         return{
             allData:[]
         }
@@ -20,6 +30,7 @@ allReq(){
 }
 },
 created(){
+      console.log(this.allReq())
     this.allReq()
 }
 }

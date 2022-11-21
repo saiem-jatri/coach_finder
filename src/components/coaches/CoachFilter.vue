@@ -36,7 +36,6 @@ export default {
       const updatedFilters = {
         ...this.filters,
         [inputId]: isActive,
-       
       };
 
       this.filters = updatedFilters;

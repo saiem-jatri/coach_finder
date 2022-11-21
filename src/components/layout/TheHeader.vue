@@ -11,6 +11,9 @@
         <li>
           <router-link to="/requests">Requests</router-link>
         </li>
+        <li>
+          <router-link to="/json">json</router-link>
+        </li>
       </ul>
     </nav>
   </header>

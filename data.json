@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Cabbage",
+      "bought": true
+    },
+    {
+      "id": 2,
+      "name": "Banana",
+      "boughtItem": true
+    },
+    {
+      "id": 0,
+      "name": "Cakes"
+    },
+    {
+      "name": "",
+      "id": 3
+    },
+    {
+      "name": "fhrdfth",
+      "id": 4,
+      "boughtItem": true
+    },
+    {
+      "name": "tdhtfcjn",
+      "id": 5,
+      "bought": true
+    },
+    {
+      "name": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "id": 14
+    },
+    {
+      "name": "dgdfg",
+      "id": 15
+    }
+  ]
+}

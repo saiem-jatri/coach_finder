@@ -11,7 +11,10 @@
             link
             >Contact</base-button>
             <!-- <router-link :to="coachContactLink">Contact</router-link> -->
-            <base-button link :to="coachDetailsLink">View Details</base-button>
+            <base-button
+              link
+              :to="coachDetailsLink"
+            >View Details</base-button>
         </div>
     </li>
 </template>

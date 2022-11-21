@@ -7,9 +7,7 @@ export default{
 
     state(){
         return{
-            requests:[{email:"aiem@gmail.com",
-            message:"hello"
-            }]
+            requests:[]
         }
     },
     mutations,
