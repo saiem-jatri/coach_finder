@@ -14,7 +14,8 @@ export default {
   async addItem({commit},payload) {
     try{
       const res = await axios.post(`http://localhost:3000/items`, {
-        name: payload,
+        name: payload.name,
+        complete:payload.complete
       });
       commit('setAddedItems', res.data)
     } catch (error){
@@ -29,9 +30,10 @@ export default {
         console.log(error)
     }
   },
-  async updateItem({commit},id,payload) {
+  async updateItem({commit},payload) {
+    console.log("lllll",payload.id)
     try{
-      await axios.put(`http://localhost:3000/items/${id}`,payload);
+      await axios.put(`http://localhost:3000/items/${payload.payload.id}`,payload.payload);
       commit('setUpdatedItems', payload)
     } catch(error){
       console.log(error)
